@@ -1,0 +1,17 @@
+Open main terminal
+  cd ~/.config/autostart ~> membuat folder config di home
+
+open terminal autostart and creat file
+  touch gnome-terminal.desktop
+  
+ write and save:
+[Desktop Entry]
+Type=Application
+Exec=gnome-terminal
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_NG]=Terminal
+Name=Terminal
+Comment[en_NG]=Start Terminal On Startup
+Comment=Start Terminal On Startup
